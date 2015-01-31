@@ -164,8 +164,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>199.3046875</real>
-						<real>287.6015625</real>
+						<real>233</real>
+						<real>299</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -202,8 +202,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>-14.6953125</real>
-						<real>2.6015625</real>
+						<real>0.0</real>
+						<real>14</real>
 					</array>
 				</dict>
 				<dict>
@@ -213,8 +213,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>6.41015625</real>
-						<real>130.05859375</real>
+						<real>14</real>
+						<real>150</real>
 					</array>
 				</dict>
 				<dict>
@@ -246,7 +246,7 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>45</real>
+						<real>50</real>
 						<true/>
 					</array>
 				</dict>
@@ -256,7 +256,7 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>1</real>
+					<real>60</real>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -264,11 +264,9 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>4</real>
+					<real>500</real>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -969,7 +967,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>214</real>
+											<real>233</real>
 											<real>285</real>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1014,6 +1012,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
