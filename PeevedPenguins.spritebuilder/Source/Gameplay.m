@@ -12,6 +12,7 @@
     CCPhysicsNode *_physicsNode;
     CCNode *_caltapultArm;
     CCNode *_levelNode;
+    CCButton *_retryButton;
 }
 
 // is called when CCB file has completed loading
@@ -46,10 +47,19 @@
     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
     [self runAction:follow];
     
+    CCActionFollow *bFollow = [CCActionFollow actionWithTarget:_retryButton worldBoundary:self.boundingBox];
+    [self runAction:bFollow];
+    
     // manually create & apply a force to launch the penguin
     CGPoint launchDirection = ccp(1, 0);
     CGPoint force = ccpMult(launchDirection, 8000);
     [penguin.physicsBody applyForce:force];
+}
+
+- (void)retry
+{
+    // reload this level
+    [[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"Gameplay"]];
 }
 
 @end
