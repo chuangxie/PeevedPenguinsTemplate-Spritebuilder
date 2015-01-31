@@ -12,7 +12,7 @@
     CCPhysicsNode *_physicsNode;
     CCNode *_caltapultArm;
     CCNode *_levelNode;
-    CCButton *_retryButton;
+    CCNode *_contentNode;
 }
 
 // is called when CCB file has completed loading
@@ -45,10 +45,7 @@
     // ensure followed object is in visible when starting
     self.position = ccp(0, 0);
     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
-    [self runAction:follow];
-    
-    CCActionFollow *bFollow = [CCActionFollow actionWithTarget:_retryButton worldBoundary:self.boundingBox];
-    [self runAction:bFollow];
+    [_contentNode runAction:follow];
     
     // manually create & apply a force to launch the penguin
     CGPoint launchDirection = ccp(1, 0);
