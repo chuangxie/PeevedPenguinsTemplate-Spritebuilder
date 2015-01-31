@@ -92,6 +92,9 @@
         [_mouseJoint invalidate];
         _mouseJoint = nil;
         
+        [_penguinCatapultJoint invalidate];
+        _penguinCatapultJoint = nil;
+        
         // after snapping rotation is fine
         _currentPenguin.physicsBody.allowsRotation = YES;
         
