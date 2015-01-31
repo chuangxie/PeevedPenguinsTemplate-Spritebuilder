@@ -12,9 +12,7 @@
 
 - (void)play
 {
-    NSLog(@"game play triggerred");
     CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
-    NSLog(@"game play 2");
     [[CCDirector sharedDirector] replaceScene:gameplayScene];
 }
 
