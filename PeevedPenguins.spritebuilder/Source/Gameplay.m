@@ -98,6 +98,9 @@
         // follow the flying penguin
         CCActionFollow *follow = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
         [_contentNode runAction:follow];
+        CGPoint launchDirection = ccp(1, 0);
+        CGPoint force = ccpMult(launchDirection, 8000);
+        [_currentPenguin.physicsBody applyForce:force];
     }
 }
 
