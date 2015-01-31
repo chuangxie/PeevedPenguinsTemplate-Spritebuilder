@@ -22,6 +22,7 @@
     
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
+    NSLog(@"did load from ccb:gameplay");
 }
 
 - (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event
