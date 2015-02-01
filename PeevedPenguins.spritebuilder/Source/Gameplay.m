@@ -95,12 +95,9 @@ static const float MIN_SPEED = 5.f;
 
 - (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
 {
-    NSLog(@"physics collision postSolve");
     float energy = [pair totalKineticEnergy];
-    NSLog(@"physics collision postSolve");
     // if energy is large enough, remove the seal
     if (energy > 50.f) {
-        NSLog(@"to remove");
         // to ensure running the code block only per key and frame
         [[_physicsNode space] addPostStepBlock:^{
             [self sealRemoved:nodeA];
@@ -117,9 +114,9 @@ static const float MIN_SPEED = 5.f;
     // place the particle effect on the seals position
     explosion.position = seal.position;
     // add the particle effect to the same node that the seal is on
-    [self.parent addChild:explosion];
+    [seal.parent addChild:explosion];
     
-    [self removeFromParent];
+    [seal removeFromParent];
 }
 
 - (void)releaseCatapult
