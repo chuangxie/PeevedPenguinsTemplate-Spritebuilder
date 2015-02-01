@@ -108,6 +108,11 @@ static const float MIN_SPEED = 5.f;
     }
 }
 
+- (void)ccPhysicsCollisionSeparate:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
+{
+    NSLog(@"....");
+}
+
 - (void)sealRemoved:(CCNode *)seal
 {
     // load particle effect
