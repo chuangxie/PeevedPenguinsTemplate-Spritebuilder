@@ -270,7 +270,7 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>60</real>
+						<real>50</real>
 						<true/>
 					</array>
 				</dict>
@@ -288,7 +288,7 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>800</real>
+					<real>600</real>
 				</dict>
 			</array>
 			<key>selected</key>
