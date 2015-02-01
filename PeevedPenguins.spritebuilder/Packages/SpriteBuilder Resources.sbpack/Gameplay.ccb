@@ -56,7 +56,7 @@
 					<key>value</key>
 					<array>
 						<real>199</real>
-						<real>112.5</real>
+						<real>111.5</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -270,7 +270,7 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>51.295711517333984</real>
+						<real>60</real>
 						<true/>
 					</array>
 				</dict>
@@ -291,6 +291,8 @@
 					<real>500</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -617,7 +619,7 @@
 										<key>value</key>
 										<array>
 											<real>220</real>
-											<real>201</real>
+											<real>200</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -849,7 +851,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>231</real>
+											<real>232</real>
 											<real>90</real>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1621,7 +1623,7 @@
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>CCBFile</string>
+						<string>waitingPenguinCCB</string>
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
@@ -1683,7 +1685,7 @@
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>CCBFile</string>
+						<string>waitingPenguinCCB</string>
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
@@ -1745,7 +1747,7 @@
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>CCBFile</string>
+						<string>waitingPenguinCCB</string>
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
