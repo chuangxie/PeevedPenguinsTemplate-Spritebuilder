@@ -130,7 +130,7 @@
 				<key>type</key>
 				<string>Float</string>
 				<key>value</key>
-				<real>-1</real>
+				<real>1</real>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -320,6 +320,8 @@
 				<string>ccbResources/ccbParticleSmoke.png</string>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
@@ -369,7 +371,7 @@
 			<key>chainedSequenceId</key>
 			<integer>-1</integer>
 			<key>length</key>
-			<real>1</real>
+			<real>10</real>
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
