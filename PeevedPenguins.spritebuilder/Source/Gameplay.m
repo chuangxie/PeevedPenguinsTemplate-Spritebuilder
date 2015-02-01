@@ -95,6 +95,7 @@ static const float MIN_SPEED = 5.f;
 
 - (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
 {
+    NSLog(@"physics collision postSolve");
     float energy = [pair totalKineticEnergy];
     NSLog(@"physics collision postSolve");
     // if energy is large enough, remove the seal
