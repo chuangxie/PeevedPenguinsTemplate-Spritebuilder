@@ -97,7 +97,7 @@ static const float MIN_SPEED = 5.f;
 {
     float energy = [pair totalKineticEnergy];
     // if energy is large enough, remove the seal
-    if (energy > 50.f) {
+    if (energy > 5000.f) {
         // to ensure running the code block only per key and frame
         [[_physicsNode space] addPostStepBlock:^{
             [self sealRemoved:nodeA];
@@ -110,7 +110,7 @@ static const float MIN_SPEED = 5.f;
     // load particle effect
     CCParticleSystem *explosion = (CCParticleSystem *)[CCBReader load:@"SealExplosion"];
     // make the particle effect clean itself up, once it is completed
-    explosion.autoRemoveOnFinish = YES;
+    explosion.autoRemoveOnFinish = TRUE;
     // place the particle effect on the seals position
     explosion.position = seal.position;
     // add the particle effect to the same node that the seal is on
