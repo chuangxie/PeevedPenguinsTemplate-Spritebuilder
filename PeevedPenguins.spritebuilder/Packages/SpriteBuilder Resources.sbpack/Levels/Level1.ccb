@@ -1074,7 +1074,7 @@
 					<key>collisionMask</key>
 					<array/>
 					<key>collisionType</key>
-					<string></string>
+					<string>seal</string>
 					<key>cornerRadius</key>
 					<real>16</real>
 					<key>density</key>
@@ -1187,6 +1187,8 @@
 						<array/>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -1216,7 +1218,7 @@
 					<key>collisionMask</key>
 					<array/>
 					<key>collisionType</key>
-					<string></string>
+					<string>seal</string>
 					<key>cornerRadius</key>
 					<real>16</real>
 					<key>density</key>
