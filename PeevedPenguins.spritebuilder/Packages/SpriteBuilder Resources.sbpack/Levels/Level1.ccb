@@ -47,7 +47,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string></string>
+				<string>Seal</string>
 				<key>displayName</key>
 				<string>seal</string>
 				<key>memberVarAssignmentName</key>
@@ -1054,7 +1054,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string></string>
+				<string>Seal</string>
 				<key>displayName</key>
 				<string>seal</string>
 				<key>memberVarAssignmentName</key>
@@ -1074,7 +1074,7 @@
 					<key>collisionMask</key>
 					<array/>
 					<key>collisionType</key>
-					<string>seal</string>
+					<string></string>
 					<key>cornerRadius</key>
 					<real>16</real>
 					<key>density</key>
@@ -1187,8 +1187,6 @@
 						<array/>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -1198,7 +1196,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string></string>
+				<string>Seal</string>
 				<key>displayName</key>
 				<string>seal</string>
 				<key>memberVarAssignmentName</key>
@@ -1218,7 +1216,7 @@
 					<key>collisionMask</key>
 					<array/>
 					<key>collisionType</key>
-					<string>seal</string>
+					<string></string>
 					<key>cornerRadius</key>
 					<real>16</real>
 					<key>density</key>
@@ -1331,6 +1329,8 @@
 						<array/>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -1513,7 +1513,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string></string>
+				<string>Seal</string>
 				<key>displayName</key>
 				<string>seal</string>
 				<key>memberVarAssignmentName</key>
