@@ -20,6 +20,7 @@
 
 - (void)didLoadFromCCB
 {
+    NSLog(@"did load...");
     self.physicsBody.collisionType = @"seal";
 }
 
