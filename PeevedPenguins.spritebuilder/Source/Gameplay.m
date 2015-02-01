@@ -55,7 +55,7 @@ static const float MIN_SPEED = 5.f;
         // move the mouseJointNode to the touch position
         _mouseJointNode.position = touchLocation;
         // setup a sprint joint between the mouseJointNode and the catapultArm
-        _mouseJoint = [CCPhysicsJoint connectedSpringJointWithBodyA:_mouseJointNode.physicsBody bodyB:_catapultArm.physicsBody anchorA:ccp(0, 0) anchorB:ccp(6, 132) restLength:0.f stiffness:1000.f damping:150.f];
+        _mouseJoint = [CCPhysicsJoint connectedSpringJointWithBodyA:_mouseJointNode.physicsBody bodyB:_catapultArm.physicsBody anchorA:ccp(0, 0) anchorB:ccp(6, 132) restLength:0.f stiffness:300.f damping:150.f];
         
         // create a penguin from the ccb-file
         _currentPenguin = (Penguin *)[CCBReader load:@"Penguin"];
